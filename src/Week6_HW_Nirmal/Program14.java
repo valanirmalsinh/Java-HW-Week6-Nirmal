@@ -13,12 +13,12 @@ import java.util.Scanner;
 public class Program14 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the Width of the Triangle :");
+        System.out.println("Enter the Width of the Rectangle :");
         double Width = scan.nextDouble();
-        System.out.println("Enter the Height of the Triangle :");
+        System.out.println("Enter the Height of the Rectangle :");
         double Height= scan.nextDouble();
-        System.out.println("Area of the Triangle is " + Width*Height);
-        System.out.println("Perimeter of the Triangle is "+ 2 * (Width+Height));
+        System.out.println("Area of the Rectangle is " + Width*Height);
+        System.out.println("Perimeter of the Rectangle is "+ 2 * (Width+Height));
         scan.close();
     }
 }
